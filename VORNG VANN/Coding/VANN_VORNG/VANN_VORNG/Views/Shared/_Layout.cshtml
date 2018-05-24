@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*@Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")*@
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/Modify/Layout.js"></script>
+    <link href="~/CSS/Layout.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Menu ICON-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+    @*<meta name="viewport" content="width=device-width" />*@
+</head>
+<body>
+    @*<div>
+        <table align="center">
+            <tr>    
+                <td><img style="margin-right:100px" src="/Photo/vann_logo.PNG" /></img></td>
+
+                <td style="vertical-align:bottom">       
+                        <button id="avc">Home</button>
+                </td>
+                <td style="vertical-align:bottom">
+                    <button>Service</button>
+                </td>
+                <td style="vertical-align:bottom">
+                    <button>About</button>
+                </td>
+                <td style="vertical-align:bottom">
+                    <button>Contact</button>
+                </td>
+              
+            </tr>
+           
+        </table>
+    </div>*@
+    @*<section>
+        <div id="abc">
+            adf
+        </div>
+        <div id="abd">
+            adfadfadf
+        </div>
+    </section>*@
+  
+
+    <section id="header_logo"></section>
+
+    <div class="menu-tab">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+    </div>
+    <div class="menu-hide">
+        <nav>
+            <ul>
+                <li class="menulist"><a href="#">Home</a></li>
+                <li class="menulist"><a href="#">About</a></li>
+                <li class="menulist"><a href="#">Service</a></li>
+                <li class="menulist"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="~/Scripts/Modify/Menu.js"></script>
+    @*<div id="header1" align="center">
+     </div>*@
+    @*<section id="section_1">
+        <div id="logo"></div>
+        <div id="header_navigation">
+        </div>
+    </section>*@
+    @*<div class="row_header">
+        <div id="logo"></div>
+        <div class="header_navigation">
+        </div>
+    </div>*@
+   
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                </ul>
+            </div>
+        </div>
+    </div>*@
+    <div class="container body-content">
+        @RenderBody()
+        @*<hr />*@
+      
+    </div>
+    <footer>
+        <table id="tb_footer">
+            <tr>
+                <th>LOCATION</th>
+                <th>FOLLOW</th>
+                <th>CONTACT</th>
+            </tr>
+            <tr>
+                <td><br />Cambodia<br />
+                    35beo, Street 271, Toek Thla Quarter, <br> Sen Sok District, Phnom Penh <br>
+                    Australia <br>
+                    20 Vanessa Dr Burton SA 5110 <br>
+                    31 Snowgum Court Keysborough, vic 3173<br>
+                </td>
+                <td>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </td>
+                <td>
+                    
+                    Cambodia(+855)  <br>012 507171 <br>070 507171 <br />
+                    Australia(+61)  <br>012 507171 <br>070 507171
+                </td>
+            </tr>
+        </table>    
+        <div id="cp">Copyright&copy; @DateTime.Now.Year www.vannvorng.com.au</div>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

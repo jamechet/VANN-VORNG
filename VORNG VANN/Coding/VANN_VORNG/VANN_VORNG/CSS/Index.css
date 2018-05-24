@@ -1,0 +1,286 @@
+﻿/*----------------------------------SECTION 1*/
+#section-1{
+    width:100%;
+    min-height: 500px;
+    /*color: black;*/
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+#section-1 .img-background{
+    background-image: url(/Photo/section-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index:-1;
+ 
+}
+#section-1-1{
+    margin-right: 10%;
+    padding: 50px 0;
+
+    /*width:100%;*/
+    /*text-align: right;*/
+}
+#btn-1-1{
+   
+    margin-right: 10%;
+}
+#h_1{
+    font-family: Castellar;
+    font:800;
+    font-size: 30px;
+}
+#h_2{
+    font-family: Centaur;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.btn_book_now{
+    padding: 10px;
+    font-size: 20px;
+    /*width: 150px;
+    height: 50px;*/
+  
+   color:white;
+   background-color:black;
+   border-radius: 10px;
+}
+/*----------------------------------SECTION 2*/
+#section-2{
+    width:100%;
+    /*color: black;*/
+
+    margin-bottom: 30px;
+}
+.divider {
+    margin-bottom: 30px;
+	width:100%;
+	text-align:center;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+#btn-2-1{
+    margin-left: 45px;
+}
+/*----------------------------------SECTION 3*/
+#section-3{
+ 
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#img_flag{
+       margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height:auto;
+}
+#h_3{
+    font-family: Calibri;
+    font-size: 50px;
+    color:#808080;
+    
+}
+#h_4{
+    font-family: Calibri;
+    font-size: 35px;
+    font-style: italic;
+    color:#808080;
+}
+#h_5{
+    font-family: Calibri; 
+    font-size: 20px;
+    font-style:italic;
+    color:#808080;
+}
+/*----------------------------------SECTION 4*/
+#img_vann{
+   
+    width: 100%;
+}
+#wrape_1{
+    width: 100%;
+    
+}
+#b_vann, #h_6{
+    float: left;
+    width: 50%;
+}
+#h_6{
+    font-size: 20px;
+    font-family: Centaur;
+    text-align: justify;
+    text-justify: inter-word;
+
+    
+    /*width: 400px;*/
+}
+#h_6_1{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#h_7{
+    clear: left;
+    margin-left:100px;
+    width:80%;
+    font-size: 60px;
+    padding: 30px;
+    font-family:'Bauhaus 93';
+}
+#h_8{
+
+    font-size: 20px;
+    font-family: Centaur;
+}
+#h_9{
+  
+    font-size: 90px;
+    font-family: Calibri;
+
+}
+#h_10{
+
+    font-family: Centaur;
+}
+#wrape_text, #h_10{
+    width: 50%;
+    float: left;
+    text-align:center;
+ 
+}
+.input_email{
+    text-align: center;
+    font-size: 15px;
+    width: 49%;
+    float: left;
+    margin-bottom: 7px;
+    margin-right: 3.8px;
+    
+}
+#input_message{
+    font-size: 15px;
+    height: 200px;
+    width: 99%;
+
+}
+
+@media screen and (max-width: 1012px) {
+    #section-1{
+        height: auto;
+        text-align: right;
+        margin-bottom: 10%;
+    }
+       
+     #btn-1-1{
+       margin-right: 10%;
+    }
+    #h_1{
+        margin-top: 10%;
+ 
+       font-weight:bold;
+        font-size: 100%;
+    }
+    #h_2{
+        font-size: 90%;
+    }
+
+    .btn_book_now{
+        font-size: 60%;
+      
+        border-radius: 5px;
+     }
+
+    
+    #h_3{
+        font-size: 150%;   
+    }
+    #h_4{
+        font-size: 100%;
+    }
+    #h_5{
+        font-size:80%;
+    }
+
+
+
+    #b_vann, #h_6{        
+        width: 100%;
+    }
+    #h_6{
+        font-size: 90%;
+    }
+    #h_6_1{
+        margin-top: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #h_7{
+        margin-top: 115%;
+        margin-left: 0%;
+
+        width:100%;
+        text-align: center;
+        font-size: 290%;
+    }
+    #h_8{
+        width: 100%;
+        text-align:center;
+        font-size: 20px;
+        font-family: Centaur;
+    }
+    #h_9{
+        width: 100%;
+        text-align: center;
+        font-size: 90px;
+        font-family: Calibri;
+    }
+    #h_10{
+        padding: 5%;
+        width: 100%;
+        font-size: 20px;
+        font-family: Centaur;
+    }
+
+    .input_email{
+    
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    margin-bottom: 7px;
+    margin-right: 3.8px;
+    
+    }
+    #input_message{
+    font-size: 15px;
+    height: 200px;
+    width: 100%;
+
+    }
+    #wrape_text, #h_10{
+    width: 100%;
+    text-align:center;
+ 
+}
+}
+
