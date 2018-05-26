@@ -1,0 +1,29 @@
+﻿
+<link href="~/CSS/Services.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<section id="content-1">
+    <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+        <li><a href="#tab1" class="active">Tab 1</a></li>
+        <li><a href="#tab2">Tab 2</a></li>
+        <li><a href="#tab3">Tab 3</a></li>
+        <li><a href="#tab4">Tab 4</a></li>
+    </ul>
+</section>
+
+<script>
+    $('.tabgroup > div').hide();
+    $('.tabgroup > div:first-of-type').show();
+    $('.tabs a').click(function (e) {
+        e.preventDefault();
+        var $this = $(this),
+            tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
+            others = $this.closest('li').siblings().children('a'),
+            target = $this.attr('href');
+        others.removeClass('active');
+        $this.addClass('active');
+        $(tabgroup).children('div').hide();
+        $(target).show();
+
+    })
+</script>

@@ -1,0 +1,65 @@
+﻿#content-1{
+   background-image: url(/Photo/service_background_content_1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: absolute;*/
+    width: 100%;
+    height: 1000px;
+    z-index:-1;
+}
+
+
+
+/*h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1 + p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+}*/
+.tabs li {
+  float: left;
+  width: 20%;
+  margin-left: 2%;
+}
+.tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888;
+  height:178px;
+  /*padding: 156px 0;*/
+ /* border-bottom: 2px solid #888;
+  background: #f7f7f7;*/
+  background-image:url(/Photo/Aus_flag.JPG);
+  background-position: center;
+  z-index:-1;
+  background-size: cover;
+}
+.tabs a:hover,
+.tabs a.active {
+  background: #ffd800;
+
+}
+.tabgroup div {
+  padding: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tabs {
+
+    margin-left:9%;
+}
+ul{
+       bottom: 10px;
+}

@@ -18,5 +18,9 @@ namespace VANN_VORNG.Controllers
         {
             return View();
         }
+        public ActionResult Services()
+        {
+            return View();
+        }
     }
 }
